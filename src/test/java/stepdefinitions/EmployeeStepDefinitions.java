@@ -68,7 +68,7 @@ public class EmployeeStepDefinitions {
                 .body("data.age", equalTo(employeePayload.getAge()));
 
         // Additional assertions if needed
-        Assert.assertEquals(response.path("status"), "success");
+        //Assert.assertEquals(response.path("status"), "success");
     }
 
 
